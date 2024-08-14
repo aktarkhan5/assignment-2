@@ -1,0 +1,333 @@
+@media screen and (max-width:572px) {
+    header {
+        height: 1100px;
+       
+    }
+    .container{
+        width: 90%;
+        margin: 0 auto;
+        
+    }
+    .menu {
+        display: block;
+    }
+    .navbar ul {
+        display: none;
+    }
+    .banner {
+        flex-direction: column;
+        height: 950px;
+        width: 100%;
+    }
+    .content-area {
+        width: 100%;
+        
+    }
+    .content-area h2 {
+        width: 50%;
+        font-size: 36px;
+        line-height: 42px;
+    }
+    .content-area span {
+        font-size: 75px;
+        font-weight: 100;
+    }
+    .content-area p {
+        width: 48%;
+    }
+    .content-area .but {
+        display: flex;
+    }
+    .content-area .btn1 {
+        display: none;
+    }
+    .content-area .btn12 {
+        padding: 15px 40px;
+        background-color: #E6533C;
+        border: 1px solid #4b4646;
+        border-radius: 25px;
+        color: #f7eaea;
+        font-size: large;
+        display: block;
+    }
+    .content-area .btn2{
+        padding: 15px 20px;
+    }
+    .person {
+        height: 600px;
+        width: 90%;
+        background-size: contain;
+        background-position: left;
+    }
+    .work {
+        padding-top: 50px;
+    }
+    .btn {
+        width: 30%;
+        margin-left: 50%; 
+    }
+    .tutor {
+        padding-top: 150px;
+        margin-left: 5%;
+    }
+     /* header responsive end here             */
+
+     /* main area responsive start here */
+    #main-area {
+        height: 1400px;
+    }
+     .main {
+        width: 90%;
+        margin-top: 0%;
+    
+    }
+    .tittle-bar h3 {
+        font-size: 35px; 
+    }
+    .tittle-bar p {
+        margin: auto;
+        width: 65%;
+        margin-bottom: 50px;
+    }
+    .card {
+        display: grid;
+    }
+    .card p {
+        width: 70%;
+        margin: auto;
+    }
+     /* main area responsive end here */
+
+     /* middle area responsive start here */
+    #middle-area {
+        height: 700px;
+        padding-top: 0;
+    }
+    .run {
+        display: grid;
+        width: 85%;
+        padding-top: 5%;
+    }
+    .run-area {
+        padding: 0;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .run-area h3 {
+        font-size: 36px;
+    }
+    .run-area p {
+        letter-spacing: 0.5px;
+    }
+    .run-area .btn3{
+        display: none;
+    } 
+    .run-area .btn32 {
+        display: block;
+        align-items: center;
+        padding: 15px 100px;
+        background-color: #E6533C;
+        border: 1px solid #4b4646;
+        border-radius: 25px;
+        color: #f7eaea;
+        font-size: large;
+    }
+    .figure {
+        width: 90%;
+    }
+    .figure img {
+        margin: 15%;
+        width: 70%;
+        object-fit:contain;
+    }
+
+     /* middle area responsive end here */
+     /* exercise area responsive start here */
+
+    #exercise {
+        height: 700px;
+    }
+    .exercise-container h2 {
+        font-size: 36px;
+        width: 70%;
+    }
+    .exercise-container p{
+        width: 70%;
+    }
+    .exercise-img-container{
+        width: 80%;
+        height: 400px;
+    }
+    .exercise-img1, .exercise-img2,
+    .exercise-img4, .exercise-img5 {
+        width: 50%;
+        position: relative;
+    }
+    .exercise-img1 h1 {
+        color: #fff;
+    }
+
+    .exercise-img3, .exercise-img6 {
+     display: none;
+    }
+    .exercise-img4 h4{
+        font-size: small;
+        position: absolute;
+        bottom: 5px;
+        left: 10px;
+        font-size: small;
+        color: #ffffff;
+        padding-bottom: 35px;
+        padding-left: 10px;
+        display: block;
+    }
+    .exercise-img5 h4{
+        font-size: small;
+        position: absolute;
+        bottom: 5px;
+        left: 10px;
+        font-size: small;
+        color: #ffffff;
+        padding-bottom: 35px;
+        padding-left: 10px;
+        display: block;
+    }
+    .exercise-img4 p, .exercise-img5 p {
+        display: none;
+    }
+     /* exercise area responsive end here */
+     /* calculate area responsive start here */
+    #calculate{
+        height: 1100px;
+    }
+    .calcu-area h3 {
+        font-size: 36px;
+        width: 80%;
+        margin-top: 10%;
+    }
+    .calcu-area p {
+        width: 80%;
+        padding-bottom: 50px;
+        letter-spacing: 1.5px;
+    }
+    .calculator {
+        height: 880px;
+        width: 98%;
+        margin: 0 auto;
+    }
+    .chart {
+        display: grid;
+    }
+    .chart .left {
+        width: 90%;
+    }    
+    .left h4 {
+        font-size: 18px;
+        padding: 40px 0;
+    }
+    .left th {
+        font-size: 16px;
+        font-weight:400;
+    }
+    .chart .right {
+        width: 90%;
+    }
+    .right h4 {
+        font-size: 18px;
+        padding-bottom: 30px;
+        padding-top: 40px;
+    }
+    .right p {
+        width: 85%;
+        padding-bottom: 50px;
+        letter-spacing: 1.5px;
+    }
+    .right .height input, .age input{
+        margin: 2px;
+        padding: 15px 8px;
+    }
+    .age select {
+        margin: 2px ;
+        padding: 14px 128px 14px 8px;
+        margin-top: 10px;
+    }
+    .factor select {
+        margin-top: 10px;
+        padding: 15px 230px 15px 12px;
+    }
+
+     /* calculate area responsive end here */
+
+     /* our-team area responsive start here */
+     .our-team{
+        height: 1550px;
+        padding-top: 8%;
+    }
+    .team-text{
+        margin-top:  10px;
+    }
+    .team-text h3{
+        font-size: 36px;
+    }
+    .team-text p{
+        width: 60%; 
+        padding-bottom: 25px;     
+    }
+    .team-img-container{
+        height: 1300px;
+        width: 90%;
+        margin: 0 auto;
+        display: grid;
+    }
+    .trainer{
+        width: 77%;
+        margin: 0 auto;    
+    }   
+
+    .trainer:nth-child(1), .trainer:nth-child(4) {
+          display: none;
+    }
+
+     /* our-team area responsive end here */
+
+     /* footer area responsive start here */
+     footer {
+        height: 1000px;
+        width: 95%;
+        margin: 0 auto;
+        border-radius: 10px;
+    }
+    .foot {
+        padding: 0;
+        width: 85%;
+        margin: 0 auto;
+    }
+    .f-card {
+        display: grid;
+        padding-bottom: 0px;
+    }
+    .f-card1 {
+        width: 75%;
+        padding-right: 0px;
+    }
+    .f-card1 a {
+        font-size: 70px;
+        font-weight: 800;
+    }
+    .f-card1 p {
+        padding-bottom: 30px;
+    }
+    .f-card2 {
+        width: 75%;
+        padding-left: 0px;
+    }
+    .f-card3 {
+        width: 75%;
+        padding-left: 0px;
+        padding-top: 20px;
+    }
+     /* footer area responsive end here */
+
+
+
+}
